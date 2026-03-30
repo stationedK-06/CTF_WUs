@@ -69,9 +69,13 @@ Now we are ready to run Wireshark.
 ![Wireshark overview](images/Pasted%20image%2020260328151912.png)
 From this screen, we can notice that this `pcap` file shows the TCP communication getting `flag.png` partially over multiple HTTP requests. 
 Let's take a more careful look at the HTTP response
-![HTTP response detail](images/Pasted%20image%2020260328152137.png)
+
+![HTTP response detail|568](images/Pasted%20image%2020260328152137.png)
+
 And let's take another careful look at the next HTTP response
+
 ![Content-Range headers](images/Pasted%20image%2020260328152352.png)
+
 We can find that they are requesting and receiving the partial content in some arbitrary order. (look at the "Content-Range")
 
 We want to assemble these partial contents in the right order and see what image it will be.
