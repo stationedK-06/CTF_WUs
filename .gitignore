@@ -1,0 +1,45 @@
+# ── Private notes (never push) ─────────────────────────────────
+PRIVATE.md
+*.private.md
+*.local.md
+
+# ── macOS system files ──────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# ── Windows system files ────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ── Editor / IDE ────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Temporary / scratch files ───────────────────────────────────
+*.tmp
+*.bak
+*.orig
+draft-*/
+_drafts/
+
+# ── CTF artifacts (local only — don't commit binaries) ─────────
+*.pcap
+*.pcapng
+*.zip
+*.tar.gz
+*.7z
+*.exe
+*.bin
+*.elf
+sus
+flag.txt
