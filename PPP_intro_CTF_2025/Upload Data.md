@@ -6,12 +6,10 @@ event: "PPP Intro CTF 2025"
 difficulty: easy
 description: "Reconstruct a fragmented image delivered over HTTP by analyzing a PCAP file captured during the challenge."
 ---
-
 This is the first problem in this CTF series that you will solve.
 The in-game mission to get the Upload Data CTF file is separated into two parts
 1. Communication: Download File (0/2)
 2. Admin: Upload File(1/2)
-
 
 After you finish the first `Communication: Download File` mission, you will head down to upload the file.
 While uploading the file, you will find that the upload is not working properly. 
